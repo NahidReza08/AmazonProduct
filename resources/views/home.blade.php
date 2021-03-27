@@ -27,7 +27,7 @@
             @foreach($products as $row)
             <div class="col">
                 <div class="card h-100" style="width: 23rem;">
-                    <img class="card-img-top" src="{{$row->image}}" alt="Card image cap" height="190px" width="290px">
+                    <a href="{{$row->url}}"><img class="card-img-top" src="{{$row->image}}" alt="Card image cap" height="190px" width="290px"></a>
                     <div class="card-body" style="background-color:rgb(202, 187, 187)" height="1000px">
                         <h6 class="card-title">{{$row->product_name}}</h6>
 
